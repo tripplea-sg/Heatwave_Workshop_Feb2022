@@ -22,3 +22,7 @@ MDS-VCN
 Compartment: Select (root) \
 Your screen should look similar to the following
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn04.png)
+5. Click ‘Next’ at the bottom of the screen \
+6. Review Oracle Virtual Cloud Network (VCN), Subnets, and Gateways \
+Click ‘Create’ to create the VCN 
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn04-1.png)
