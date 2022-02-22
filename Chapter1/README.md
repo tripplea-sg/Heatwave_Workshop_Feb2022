@@ -36,5 +36,22 @@ Click ‘Create’ to create the VCN
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn08.png)
 11. On Security List for Private Subnet-MDS-VCN page under ‘Ingress Rules’, click ‘Add Ingress Rules’ 
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn09.png)
+12. On Add Ingress Rules page under Ingress Rule 1 \
+Add an Ingress Rule with Source CIDR
+```
+0.0.0.0/0
+```
+Destination Port Range
+```
+3306,33060
+```
+Description
+```
+MySQL Port Access
+```
+Click ‘Add Ingress Rule’ 
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn10.png)
+13. On Security List for Private Subnet-MDS-VCN page, the new Ingress Rules will be shown under the Ingress Rules List 
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn11.png)
 
-
+## Task 2: Create MySQL Database for HeatWave (DB System) instance
