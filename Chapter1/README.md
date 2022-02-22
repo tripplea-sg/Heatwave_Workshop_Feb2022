@@ -82,5 +82,12 @@ MySQL Database Service HeatWave instance
 ```
 Select HeatWave to specify a HeatWave DB System 
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/04mysql03-3.png)
-
-
+5. Create Administrator Credentials \
+Enter Username (write username to notepad for later use) \
+Enter Password (write password to notepad for later use) \
+Confirm Password (value should match password for later use) \
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/04mysql04.png)
+6. On Configure networking, keep the default values \
+Virtual Cloud Network: MDS-VCN \
+Subnet: Private Subnet-MDS-VCN (Regional)
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/04mysql05.png)
