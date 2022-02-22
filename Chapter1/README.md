@@ -26,3 +26,6 @@ Your screen should look similar to the following
 6. Review Oracle Virtual Cloud Network (VCN), Subnets, and Gateways \
 Click ‘Create’ to create the VCN 
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn04-1.png)
+7. The Virtual Cloud Network creation is completing 
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn05.png)
+8. Click ‘View Virtual Cloud Network’ to display the created VCN 
