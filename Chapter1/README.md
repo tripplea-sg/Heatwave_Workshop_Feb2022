@@ -7,4 +7,5 @@ In this lab, you will create and configure a MySQL DB System. You will add a Hea
 
 ## Task 1: Create Virtual Cloud Network
 Click Navigation Menu, Networking, then Virtual Cloud Networks
-https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn01.png
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn01.png)
+
