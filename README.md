@@ -16,3 +16,15 @@ Workshop prerequisites:
     5. Free up time of developers, DBAs, and DevOps to focus on value added tasks that are core to your business.
     6. Access to dozens of additional Oracle Cloud Services enabling organizations to embrace the shift to the cloud.
 
+## Lab Setup
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/heatwave-bastion-architecture-compute.png)
+
+## Agenda
+|Topics|Description|
+|----|----|
+| [Preparation](Chapter1) | Create MySQL Database System and HeatWave Cluster
+| [Test Drive 1](Chapter2) | Connect to MySQL DB System
+| [Test Drive 2](Chapter3) | Load HeatWave cluster in MySQL Database System
+| [Test Drive 3](Chapter4) | Run Queries with MySQL Shell
+| [Test Drive 4](Chapter5) | Run MySQL Autopilot
+
