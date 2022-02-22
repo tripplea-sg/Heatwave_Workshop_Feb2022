@@ -22,9 +22,9 @@ Workshop prerequisites:
 ## Agenda
 |Topics|Description|
 |----|----|
-| [Preparation](Chapter1) | Create MySQL Database System and HeatWave Cluster
-| [Test Drive 1](Chapter2) | Connect to MySQL DB System
-| [Test Drive 2](Chapter3) | Load HeatWave cluster in MySQL Database System
-| [Test Drive 3](Chapter4) | Run Queries with MySQL Shell
-| [Test Drive 4](Chapter5) | Run MySQL Autopilot
+| [Chapter 1](Chapter1) | Create MySQL Database System and HeatWave Cluster
+| [Chapter 2](Chapter2) | Connect to MySQL DB System
+| [Chapter 3](Chapter3) | Load HeatWave cluster in MySQL Database System
+| [Chapter 4](Chapter4) | Run Queries with MySQL Shell
+| [Chapter 5](Chapter5) | Run MySQL Autopilot
 
