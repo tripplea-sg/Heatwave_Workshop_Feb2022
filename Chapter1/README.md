@@ -55,3 +55,5 @@ Click ‘Add Ingress Rule’
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn11.png)
 
 ## Task 2: Create MySQL Database for HeatWave (DB System) instance
+1. Go to Navigation Menu Databases MySQL DB Systems 
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/04mysql01.png)
