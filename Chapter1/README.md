@@ -29,3 +29,12 @@ Click ‘Create’ to create the VCN
 7. The Virtual Cloud Network creation is completing 
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn05.png)
 8. Click ‘View Virtual Cloud Network’ to display the created VCN 
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn06.png)
+9. On MDS-VCN page under ‘Subnets in (root) Compartment’, click ‘Private Subnet-MDS-VCN’ 
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn07.png)
+10. On Private Subnet-MDS-VCN page under ‘Security Lists’, click ‘Security List for Private Subnet-MDS-VCN’ 
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn08.png)
+11. On Security List for Private Subnet-MDS-VCN page under ‘Ingress Rules’, click ‘Add Ingress Rules’ 
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn09.png)
+
+
