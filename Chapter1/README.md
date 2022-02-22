@@ -6,17 +6,19 @@ In this lab, you will create and configure a MySQL DB System. You will add a Hea
     3. Add a HeatWave Cluster to MySQL Database System
 
 ## Task 1: Create Virtual Cloud Network
-Click Navigation Menu, Networking, then Virtual Cloud Networks
+1. Click Navigation Menu, Networking, then Virtual Cloud Networks
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn01.png)
-Click Start VCN Wizard
+2. Click Start VCN Wizard
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn02.png)
-Select ‘Create VCN with Internet Connectivity’  
+3. Select ‘Create VCN with Internet Connectivity’  
 Click ‘Start VCN Wizard’ 
-![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn01.png)
-Create a VCN with Internet Connectivity \
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn03.png)
+4. Create a VCN with Internet Connectivity \
 On Basic Information, complete the following fields: \
 VCN Name:
 ```
 MDS-VCN
 ```
-
+Compartment: Select (root) \
+Your screen should look similar to the following
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn04.png)
