@@ -59,3 +59,28 @@ Click ‘Add Ingress Rule’
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/04mysql01.png)
 2. Click ‘Create MySQL DB System’ 
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/04mysql02.png)
+3. Create MySQL DB System dialog complete the fields in each section
+
+    Provide basic information for the DB System
+    Setup your required DB System
+    Create Administrator credentials
+    Configure Networking
+    Configure placement
+    Configure hardware
+    Exclude Backups
+    Advanced Options - Data Import
+
+4. Provide basic information for the DB System: \ 
+Select Compartment (root) \
+Enter Name
+```
+MDS-HW
+```
+Enter Description
+```
+MySQL Database Service HeatWave instance
+```
+Select HeatWave to specify a HeatWave DB System 
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/04mysql03-3.png)
+
+
