@@ -16,4 +16,7 @@ Click ‘Start VCN Wizard’
 Create a VCN with Internet Connectivity \
 On Basic Information, complete the following fields: \
 VCN Name:
-    MDS-VCN
+```
+MDS-VCN
+```
+
