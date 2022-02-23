@@ -29,4 +29,19 @@ ls
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/ssh-ls-01.png)
 Note in the output there are two files, a private key: id_rsa and a public key: id_rsa.pub. Keep the private key safe and don’t share its content with anyone. The public key will be needed for various activities and can be uploaded to certain systems as well as copied and pasted to facilitate secure communications in the cloud.
 
+## Task 2: Create Compute instance
+You will need a compute Instance to connect to your brand new MySQL database.
+### 1. Before creating the Compute instance open a notepad
+### 2. Do the followings steps to copy the public SSH key to the notepad
+Open the Cloud shell 
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/cloudshell-10.png)
+Enter the following command
+```
+cat ~/.ssh/id_rsa.pub
+```
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/cloudshell-11.png)
+### 3. Copy the id_rsa.pub content the notepad
+Your notepad should look like this 
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/notepad-rsa-key-1.png)
+
 
