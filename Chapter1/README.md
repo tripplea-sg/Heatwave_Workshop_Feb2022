@@ -96,7 +96,7 @@ Data Storage Size (GB) Set value to: 100
 ```
 100
 ```
-![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/04mysql07-3-100.png)
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/Screenshot 2022-02-23 at 5.15.45 PM.png)
 ### 8. On Configure Backups, disable ‘Enable Automatic Backup’
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/04mysql08.png)
 ### 9. Review Create MySQL DB System Screen 
