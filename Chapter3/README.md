@@ -18,3 +18,13 @@ unzip airport-db.zip
 mysqlsh -uadmin -p -h 10.0.1... --sql
 ```
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/heatwave-load-01-shell.png)
+### 4. Load airport-db into MySQL DB System
+```
+SQL > util.loadDump('airport-db')
+```
+Check if airport-db is successfully loaded into MySQL DB System
+```
+SQL > SELECT table_name, table_rows FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'airportdb';
+```
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/airportdb-list.png)
+
