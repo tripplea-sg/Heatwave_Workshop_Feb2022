@@ -12,4 +12,21 @@ Today, you will use the Compute Instance to connect from the browser to a MDS DB
 ## Task 1: Create SSH Key on OCI Cloud Shell
 The Cloud Shell machine is a small virtual machine running a Bash shell which you access through the Oracle Cloud Console (Homepage). You will start the Cloud Shell and generate a SSH Key to use for the Bastion session.
 ### 1. To start the Oracle Cloud shell, go to your Cloud console and click the cloud shell icon at the top right of the page. This will open the Cloud Shell in the browser, the first time it takes some time to generate it.
-![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn01.png)
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/cloudshell01.png)
+### 2. Once the cloud shell has started, create the SSH Key using the following command:
+```
+ssh-keygen -t rsa
+```
+Press enter for each question. \
+Here is what it should look like.
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/ssh-key01.png)
+### 3. The public and private SSH keys are stored in ~/.ssh/id_rsa.pub.
+### 4. Examine the two files that you just created.
+```
+cd .ssh
+ls
+```
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/ssh-ls-01.png)
+Note in the output there are two files, a private key: id_rsa and a public key: id_rsa.pub. Keep the private key safe and don’t share its content with anyone. The public key will be needed for various activities and can be uploaded to certain systems as well as copied and pasted to facilitate secure communications in the cloud.
+
+
