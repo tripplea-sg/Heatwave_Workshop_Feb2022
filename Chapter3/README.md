@@ -15,7 +15,7 @@ unzip airport-db.zip
 ```
 ### 3.On command Line, connect to MySQL using the MySQL Shell client tool with the following command:
 ```
-mysqlsh -uadmin -p -h 10.0.1... --sql
+mysqlsh -uadmin -p -h 10.0.1... 
 ```
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/heatwave-load-01-shell.png)
 ### 4. Load airport-db into MySQL DB System
