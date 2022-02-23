@@ -8,3 +8,8 @@ This Compute Instance Bastion Host is a resource that sits between the private r
 and can act as a “jump box” to allow you to log in to the private resource through protocols like SSH. This bastion host requires a Virtual Cloud Network a
 nd Compute Instance to connect with the MySQL DB Systems.
 Today, you will use the Compute Instance to connect from the browser to a MDS DB System
+
+## Task 1: Create SSH Key on OCI Cloud Shell
+The Cloud Shell machine is a small virtual machine running a Bash shell which you access through the Oracle Cloud Console (Homepage). You will start the Cloud Shell and generate a SSH Key to use for the Bastion session.
+### 1. To start the Oracle Cloud shell, go to your Cloud console and click the cloud shell icon at the top right of the page. This will open the Cloud Shell in the browser, the first time it takes some time to generate it.
+
