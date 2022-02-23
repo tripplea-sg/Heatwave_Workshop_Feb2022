@@ -27,14 +27,16 @@ Check if airport-db is successfully loaded into MySQL DB System
 SQL > SELECT table_name, table_rows FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'airportdb';
 ```
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/airportdb-list.png)
-### 5. Run the following Auto Parallel Load command to load the airportdb tables into HeatWave..
+
+## Task 2: Load Data to MySQL Heatwave
+### 1. Run the following Auto Parallel Load command to load the airportdb tables into HeatWave..
 ```
 SQL > CALL sys.heatwave_load(JSON_ARRAY('airportdb'), NULL);
 ```
-### 6. The completed load cluster screen should look like this:
+### 2. The completed load cluster screen should look like this:
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/heatwave-load-02.png)
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/heatwave-load-03.png)
-### 7. Verify that the tables are loaded in the HeatWave cluster. Loaded tables have an AVAIL_RPDGSTABSTATE load status.
+### 3. Verify that the tables are loaded in the HeatWave cluster. Loaded tables have an AVAIL_RPDGSTABSTATE load status.
 ```
 SQL > USE performance_schema;
 SQL > SELECT NAME, LOAD_STATUS FROM rpd_tables,rpd_table_id WHERE rpd_tables.ID = rpd_table_id.ID;
