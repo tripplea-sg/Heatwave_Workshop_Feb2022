@@ -43,5 +43,20 @@ cat ~/.ssh/id_rsa.pub
 ### 3. Copy the id_rsa.pub content the notepad
 Your notepad should look like this 
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/notepad-rsa-key-1.png)
+### 4. To launch a Linux Compute instance, go to Navigation Menu Compute Instances 
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/05compute01.png)
+### 5. On Instances in (root) Compartment, click Create Instance
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/05compute02_00.png)
+### 6. On Create Compute Instance
+Enter Name
+```
+MDS-Client
+```
+### 7. Make sure (root) compartment is selected
+### 8. On Placement, keep the selected Availability Domain
+### 9. On Image and Shape, keep the selected Image, Oracle Linux 7.9
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/05compute03.png)
+### 10. Select Instance Shape: VM.Standard2.2
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/05compute-shape.png)
 
 
