@@ -99,5 +99,13 @@ Data Storage Size (GB) Set value to: 100
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/04mysql07-3-100.png)
 8. On Configure Backups, disable ‘Enable Automatic Backup’
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/04mysql08.png)
-
+9. Review Create MySQL DB System Screen 
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/04mysql09-3.png)
+Click the ‘Create’ button \
+10. The New MySQL DB System will be ready to use after a few minutes \
+The state will be shown as ‘Creating’ during the creation 
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/04mysql10-3.png)
+11. The state ‘Active’ indicates that the DB System is ready for use \
+On MDS-HW Page, check the MySQL Endpoint (Private IP Address) 
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/04mysql11-3.png)
 
