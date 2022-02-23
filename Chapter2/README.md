@@ -58,5 +58,11 @@ MDS-Client
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/05compute03.png)
 ### 10. Select Instance Shape: VM.Standard2.2
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/05compute-shape.png)
-
-
+### 11. On Networking, make sure ‘MDS-VCN’ is selected
+‘Assign a public IP address’ should be set to Yes
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/05compute04.png)
+### 12. On Add SSH keys, paste the public key from the notepad.
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/05compute-id-rsa-paste.png)
+### 13. Click ‘Create’ to finish creating your Compute Instance.
+### 14. The New Virtual Machine will be ready to use after a few minutes. The state will be shown as ‘Provisioning’ during the creation 
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/05compute07.png)
