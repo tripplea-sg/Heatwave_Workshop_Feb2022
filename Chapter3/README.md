@@ -20,7 +20,11 @@ mysqlsh -uadmin -p -h 10.0.1...
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/heatwave-load-01-shell.png)
 ### 4. Load airport-db into MySQL DB System
 ```
-SQL > util.loadDump('airport-db')
+JS > util.loadDump('airport-db')
+```
+Switch MySQL Shell mode from JS to SQL
+```
+JS > \sql
 ```
 Check if airport-db is successfully loaded into MySQL DB System
 ```
