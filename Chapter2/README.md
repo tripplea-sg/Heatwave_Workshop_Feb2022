@@ -69,3 +69,19 @@ MDS-Client
 ### 15. The state ‘Running’ indicates that the Virtual Machine is ready to use.
 On the MDS-Client Instance page under ‘Instance Access’, Copy and save the Public IP Address
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/05compute08.png)
+
+## Task 3: Connect to MySQL Database System
+### 1. Copy the public IP address of the active Compute Instance to your notepad
+Go to Navigation Menu Compute Instances 
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/db-list.png)
+Click the MDS-Client Compute Instance link 
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/db-active.png)
+Copy MDS-Client plus the Public IP Address to the notepad
+### 2. Copy the private IP address of the active MySQl Database Service Instance to your notepad
+Go to Navigation Menu Databases MySQL
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/db-list.png)
+Click the MDS-HW Database System link
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/db-active.png)
+Copy MDS-HW plus the Private IP Address to the notepad
+### 3. Your notepad should look like the following: 
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/notepad-rsa-key-compute-mds-1.png)
