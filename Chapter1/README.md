@@ -6,14 +6,14 @@ In this lab, you will create and configure a MySQL DB System. You will add a Hea
     3. Add a HeatWave Cluster to MySQL Database System
 
 ## Task 1: Create Virtual Cloud Network
-1. Click Navigation Menu, Networking, then Virtual Cloud Networks
+### 1. Click Navigation Menu, Networking, then Virtual Cloud Networks
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn01.png)
-2. Click Start VCN Wizard
+### 2. Click Start VCN Wizard
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn02.png)
-3. Select ‘Create VCN with Internet Connectivity’  
+### 3. Select ‘Create VCN with Internet Connectivity’  
 Click ‘Start VCN Wizard’ 
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn03.png)
-4. Create a VCN with Internet Connectivity \
+### 4. Create a VCN with Internet Connectivity \
 On Basic Information, complete the following fields: \
 VCN Name:
 ```
@@ -22,21 +22,21 @@ MDS-VCN
 Compartment: Select (root) \
 Your screen should look similar to the following
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn04.png)
-5. Click ‘Next’ at the bottom of the screen \
-6. Review Oracle Virtual Cloud Network (VCN), Subnets, and Gateways \
+### 5. Click ‘Next’ at the bottom of the screen \
+### 6. Review Oracle Virtual Cloud Network (VCN), Subnets, and Gateways \
 Click ‘Create’ to create the VCN 
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn04-1.png)
-7. The Virtual Cloud Network creation is completing 
+### 7. The Virtual Cloud Network creation is completing 
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn05.png)
-8. Click ‘View Virtual Cloud Network’ to display the created VCN 
+### 8. Click ‘View Virtual Cloud Network’ to display the created VCN 
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn06.png)
-9. On MDS-VCN page under ‘Subnets in (root) Compartment’, click ‘Private Subnet-MDS-VCN’ 
+### 9. On MDS-VCN page under ‘Subnets in (root) Compartment’, click ‘Private Subnet-MDS-VCN’ 
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn07.png)
-10. On Private Subnet-MDS-VCN page under ‘Security Lists’, click ‘Security List for Private Subnet-MDS-VCN’ 
+### 10. On Private Subnet-MDS-VCN page under ‘Security Lists’, click ‘Security List for Private Subnet-MDS-VCN’ 
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn08.png)
-11. On Security List for Private Subnet-MDS-VCN page under ‘Ingress Rules’, click ‘Add Ingress Rules’ 
+### 11. On Security List for Private Subnet-MDS-VCN page under ‘Ingress Rules’, click ‘Add Ingress Rules’ 
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn09.png)
-12. On Add Ingress Rules page under Ingress Rule 1 \
+### 12. On Add Ingress Rules page under Ingress Rule 1 \
 Add an Ingress Rule with Source CIDR
 ```
 0.0.0.0/0
@@ -51,15 +51,15 @@ MySQL Port Access
 ```
 Click ‘Add Ingress Rule’ 
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn10.png)
-13. On Security List for Private Subnet-MDS-VCN page, the new Ingress Rules will be shown under the Ingress Rules List 
+### 13. On Security List for Private Subnet-MDS-VCN page, the new Ingress Rules will be shown under the Ingress Rules List 
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/03vcn11.png)
 
 ## Task 2: Create MySQL Database for HeatWave (DB System) instance
-1. Go to Navigation Menu Databases MySQL DB Systems 
+### 1. Go to Navigation Menu Databases MySQL DB Systems 
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/04mysql01.png)
-2. Click ‘Create MySQL DB System’ 
+### 2. Click ‘Create MySQL DB System’ 
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/04mysql02.png)
-3. Create MySQL DB System dialog complete the fields in each section
+### 3. Create MySQL DB System dialog complete the fields in each section
 
     Provide basic information for the DB System
     Setup your required DB System
@@ -70,7 +70,7 @@ Click ‘Add Ingress Rule’
     Exclude Backups
     Advanced Options - Data Import
 
-4. Provide basic information for the DB System: \ 
+### 4. Provide basic information for the DB System: \ 
 Select Compartment (root) \
 Enter Name
 ```
@@ -82,30 +82,30 @@ MySQL Database Service HeatWave instance
 ```
 Select HeatWave to specify a HeatWave DB System 
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/04mysql03-3.png)
-5. Create Administrator Credentials \
+### 5. Create Administrator Credentials \
 Enter Username (write username to notepad for later use) \
 Enter Password (write password to notepad for later use) \
 Confirm Password (value should match password for later use) \
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/04mysql04.png)
-6. On Configure networking, keep the default values \
+### 6. On Configure networking, keep the default values \
 Virtual Cloud Network: MDS-VCN \
 Subnet: Private Subnet-MDS-VCN (Regional)
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/04mysql05.png)
-7. On Configure hardware, keep default shape as MySQL.HeatWave.VM.Standard.E3 \
+### 7. On Configure hardware, keep default shape as MySQL.HeatWave.VM.Standard.E3 \
 Data Storage Size (GB) Set value to: 100
 ```
 100
 ```
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/04mysql07-3-100.png)
-8. On Configure Backups, disable ‘Enable Automatic Backup’
+### 8. On Configure Backups, disable ‘Enable Automatic Backup’
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/04mysql08.png)
-9. Review Create MySQL DB System Screen 
+### 9. Review Create MySQL DB System Screen 
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/04mysql09-3.png)
 Click the ‘Create’ button \
-10. The New MySQL DB System will be ready to use after a few minutes \
+### 10. The New MySQL DB System will be ready to use after a few minutes \
 The state will be shown as ‘Creating’ during the creation 
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/04mysql10-3.png)
-11. The state ‘Active’ indicates that the DB System is ready for use \
+### 11. The state ‘Active’ indicates that the DB System is ready for use \
 On MDS-HW Page, check the MySQL Endpoint (Private IP Address) 
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/04mysql11-3.png)
 
