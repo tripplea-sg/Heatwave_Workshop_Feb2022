@@ -35,7 +35,7 @@ LIMIT 10\G
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/heatwave-qeury-02.png)
 ### 6. After verifying that the query can be offloaded, run the query and note the execution time. Enter the following command at the prompt:
 ```
-ELECT
+SELECT
 airline.airlinename,
 AVG(datediff(departure,birthdate)/365.25) as avg_age,
 count(*) as nb_people
