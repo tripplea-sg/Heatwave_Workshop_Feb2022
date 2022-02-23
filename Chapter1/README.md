@@ -91,3 +91,10 @@ Confirm Password (value should match password for later use) \
 Virtual Cloud Network: MDS-VCN \
 Subnet: Private Subnet-MDS-VCN (Regional)
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/04mysql05.png)
+7. On Configure hardware, keep default shape as MySQL.HeatWave.VM.Standard.E3 \
+Data Storage Size (GB) Set value to: 100
+```
+100
+```
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/04mysql07-3-100.png)
+
