@@ -104,3 +104,21 @@ SELECT GROUP_CONCAT(log->>"$.sql" SEPARATOR '\n') AS "SQL Script" FROM sys.heatw
 ### 8. Copy and paste auto-generated script to apply AutoEncoding changes
 ### 9. Run the same queries in step 1 and record the time. You can see that total query runtime has improved.
 Your results should look like this:
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/pilot01.png)
+
+## Task 2: Improve Query performance using Auto Data Placement
+### 1. Run MySQL Autopilot Auto Data Placement advisor to get suggestions on data placement keys.
+```
+call sys.heatwave_advisor(json_object('target_schema', JSON_ARRAY('airportdb'), 'auto_dp', json_object('benefit_threshold',0) ));
+```
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/pilot02.png)
+### 2. To apply the suggestion, access the auto-generated script
+```
+SET SESSION group_concat_max_len = 1000000;
+```
+```
+SELECT GROUP_CONCAT(log->>"$.sql" SEPARATOR '\n') AS "SQL Script" FROM sys.heatwave_advisor_report WHERE type = "sql" ORDER BY id;
+```
+### 3. Copy and paste auto-generated script to apply data placement changes
+### 4. Run the query in Task 1 step 1 again. You can see that total query runtime has improved.
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/pilot03.png)
