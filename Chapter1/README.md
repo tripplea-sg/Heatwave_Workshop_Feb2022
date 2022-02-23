@@ -109,3 +109,15 @@ The state will be shown as ‘Creating’ during the creation
 On MDS-HW Page, check the MySQL Endpoint (Private IP Address) 
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/04mysql11-3.png)
 
+## Task 3: Add a HeatWave Cluster to MDS-HW MySQL Database System
+### 1. Open the navigation menu
+Databases MySQL DB Systems
+### 2. Choose the root Compartment. A list of DB Systems is displayed. 
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/10addheat01.png)
+### 3. In the list of DB Systems, click the MDS-HW system. click More Action -> Add HeatWave Cluster.
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/10addheat02.png)
+### 4. On the “Add HeatWave Cluster” dialog, select “MySQL.HeatWave.VM.Standard.E3” shape
+### 5. Click “Add HeatWave Cluster” to create the HeatWave cluster 
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/10addheat06.png)
+### 6. HeatWave creation will take about 10 minutes. From the DB display page scroll down to the Resources section. Click the HeatWave link. Your completed HeatWave Cluster Information section will look like this: 
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/10addheat07.png)
