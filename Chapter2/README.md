@@ -110,6 +110,9 @@ The endpoint (IP Address) can be found in your notepad or the MDS-HW MySQL DB Sy
 mysqlsh -uadmin -p -h 10.0.1.... --sql
 ```
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/06connect04-myslqsh.png)
-
+### 8. Exit MySQL Shell
+```
+SQL > \quit
+```
 
 
