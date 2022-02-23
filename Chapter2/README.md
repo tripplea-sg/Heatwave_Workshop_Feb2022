@@ -66,3 +66,6 @@ MDS-Client
 ### 13. Click ‘Create’ to finish creating your Compute Instance.
 ### 14. The New Virtual Machine will be ready to use after a few minutes. The state will be shown as ‘Provisioning’ during the creation 
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/05compute07.png)
+### 15. The state ‘Running’ indicates that the Virtual Machine is ready to use.
+On the MDS-Client Instance page under ‘Instance Access’, Copy and save the Public IP Address
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/05compute08.png)
