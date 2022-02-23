@@ -85,3 +85,31 @@ Click the MDS-HW Database System link
 Copy MDS-HW plus the Private IP Address to the notepad
 ### 3. Your notepad should look like the following: 
 ![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/notepad-rsa-key-compute-mds-1.png)
+### 4. Indicate the location of the private key you created earlier with MDS-Client.
+Enter the username opc and the Public IP Address. \
+Note: The MDS-Client shows the Public IP Address as mentioned on TASK 5: #11
+(Example: ssh -i ~/.ssh/id_rsa opc@132.145.170…) \
+```
+ssh -i ~/.ssh/id_rsa opc@<your_compute_instance_ip>
+```
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/06connect01-signin.png)
+### 5. Install MySQL Shell on the Compute Instance
+You will need a MySQL client tool to connect to your new MySQL DB System from your client machine. \
+Install MySQL Shell with the following command (enter y for each question)
+```
+sudo yum install mysql-shell -y
+```
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/06connect02-shell.png)
+### 6. Connect to MySQL Database Service
+From your Compute instance, connect to MDS-HW MySQL using the MySQL Shell client tool. \
+The endpoint (IP Address) can be found in your notepad or the MDS-HW MySQL DB System Details page, under the “Endpoint” “Private IP Address”.
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/06connect03.png)
+### 7. Use the following command to connect to MySQL using the MySQL Shell client tool. Be sure to add the MDS-HW private IP address at the end of the command. Also enter the admin user password
+(Example mysqlsh -uadmin -p -h10.0.1.. –sql) \
+```
+mysqlsh -uadmin -p -h 10.0.1.... --sql
+```
+![Image of picture1](https://github.com/tripplea-sg/Heatwave_Workshop_Feb2022/blob/main/Images/06connect04-myslqsh.png)
+
+
+
